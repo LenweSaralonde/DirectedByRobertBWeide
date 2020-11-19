@@ -1,7 +1,7 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: Directed By Robert B. Weide
 ## Author: LenweSaralonde
-## Version: 1.0.1
+## Version: 1.0.2
 ## Notes: Plays the end credits from "Curb Your Enthusiasm" when you die.
 
 DirectedByRobertBWeide.lua
