@@ -57,10 +57,14 @@ function DBRBW.Initialize()
 		function(self, keyValue)
 			if keyValue == "ESCAPE" then
 				DBRBW.HideCredits()
-				self:SetPropagateKeyboardInput(false)
+				if not InCombatLockdown() then
+					self:SetPropagateKeyboardInput(false)
+				end
 				return
 			end
-			self:SetPropagateKeyboardInput(true)
+			if not InCombatLockdown() then
+				self:SetPropagateKeyboardInput(true)
+			end
 		end
 	)
 
@@ -86,15 +90,15 @@ function DBRBW.GetCredits()
 	local player = string.upper(UnitName("player"))
 
 	return {
-		{"Directed by", "ROBERT B. WEIDE", 1},
-		{"Executive Producer", "LARRY DAVID", 3.3},
-		{"Executive Producer", "JEFF GARLIN", 3.3},
-		{"Executive Producer", "GAVIN POLONE", 3.3},
-		{"Co-Executive Producer", "ROBERT B. WEIDE", 3.3},
-		{"Produced by", "TIM GIBBONS", 3.3},
-		{"Co-Producer", "ERIN O'MALLEY", 3.3},
-		{"Consulting Producer", "ALAN ZWEIBEL", 3.3},
-		{"Starring", player .. " as " .. himself, 3.3}
+		{ "Directed by",           "ROBERT B. WEIDE",           1 },
+		{ "Executive Producer",    "LARRY DAVID",               3.3 },
+		{ "Executive Producer",    "JEFF GARLIN",               3.3 },
+		{ "Executive Producer",    "GAVIN POLONE",              3.3 },
+		{ "Co-Executive Producer", "ROBERT B. WEIDE",           3.3 },
+		{ "Produced by",           "TIM GIBBONS",               3.3 },
+		{ "Co-Producer",           "ERIN O'MALLEY",             3.3 },
+		{ "Consulting Producer",   "ALAN ZWEIBEL",              3.3 },
+		{ "Starring",              player .. " as " .. himself, 3.3 }
 	}
 end
 
