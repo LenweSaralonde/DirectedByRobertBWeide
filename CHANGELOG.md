@@ -1,6 +1,12 @@
 Changelog
 =========
 
+v1.2.0
+------
+* Updated for WoW Retail patch 10.2.7.
+* Updated for WoW Cataclysm Classic patch 4.4.0.
+* Updated for WoW Classic patch 1.15.2.
+
 v1.1.10
 -------
 * Updated for WoW patch 10.1.7 and WoW Classic patch 1.14.4.
