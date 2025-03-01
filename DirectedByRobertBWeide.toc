@@ -4,5 +4,16 @@
 ## Version: 1.2.0
 ## IconTexture: Interface\AddOns\DirectedByRobertBWeide\DirectedByRobertBWeide.blp
 ## Notes: Plays the end credits from "Curb Your Enthusiasm" when you die.
+## Category-enUS: Other
+## Category-deDE: Anderes
+## Category-esES: Otros
+## Category-esMX: Otros
+## Category-frFR: Autre
+## Category-itIT: Altro
+## Category-koKR: 기타
+## Category-ptBR: Outro
+## Category-ruRU: Другое
+## Category-zhCN: 其它
+## Category-zhTW: 其他
 
 DirectedByRobertBWeide.lua
