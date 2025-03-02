@@ -1,7 +1,7 @@
 ## Interface: 11506
 ## Title: Directed By Robert B. Weide
 ## Author: LenweSaralonde
-## Version: 1.2.0
+## Version: 1.2.1
 ## Notes: Plays the end credits from "Curb Your Enthusiasm" when you die.
 ## Category-enUS: Other
 ## Category-deDE: Anderes
