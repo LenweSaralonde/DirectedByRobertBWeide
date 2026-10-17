@@ -15,5 +15,7 @@
 ## Category-ruRU: Другое
 ## Category-zhCN: 其它
 ## Category-zhTW: 其他
+## X-Curse-Project-ID: 402306
+## X-Wago-ID: xZKxvvNk
 
 DirectedByRobertBWeide.lua
