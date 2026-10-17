@@ -1,7 +1,7 @@
-## Interface: 120100, 120105, 50504, 20506, 11509, 16001
+## Interface: 120105, 50504, 20506, 11509, 16001
 ## Title: Directed By Robert B. Weide
 ## Author: LenweSaralonde
-## Version: 1.2.4
+## Version: 1.2.5
 ## IconTexture: Interface\AddOns\DirectedByRobertBWeide\DirectedByRobertBWeide.blp
 ## Notes: Plays the end credits from "Curb Your Enthusiasm" when you die.
 ## Category-enUS: Other

@@ -1,9 +1,13 @@
 Changelog
 =========
 
+v1.2.5
+------
+* Updated for WoW Midnight 12.1.5 and WoW Forever beta 1.60.1.
+
 v1.2.4
 ------
-* Updated for Wow Retail 12.0.7 and MoP Classic 5.5.4.
+* Updated for WoW Midnight 12.0.7 and MoP Classic 5.5.4.
 
 v1.2.3
 ------
