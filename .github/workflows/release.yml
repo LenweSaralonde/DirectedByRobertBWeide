@@ -25,6 +25,9 @@ jobs:
 
       - name: Package and release
         uses: BigWigsMods/packager@v2
+        env:
+          # Undocumented: keeps the space in the label instead of replacing it with "_"
+          skip_invalid: true
         with:
           # Keep the default file name, prefix the upload label (CurseForge and Wago release title)
           args: -n ":{package-name} {project-version}{classic}{nolib}"
